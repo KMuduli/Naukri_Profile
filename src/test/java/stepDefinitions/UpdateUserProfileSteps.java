@@ -52,7 +52,7 @@ public class UpdateUserProfileSteps {
 
 	@When("edit Exprience years {string} and months {string} and current Salary {string} and Notice Period {string}")
 	public void edit_exprience_years_and_months_and_current_salary_and_notice_period(String string, String string2, String string3, String string4) {
-		profilePage.select_ExperienceInMonths(" 7 Months ");
+		profilePage.select_ExperienceInMonths(" 6 Months ");
 	}
 
 	@And("user click Save button")
