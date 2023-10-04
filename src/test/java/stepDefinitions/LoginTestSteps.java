@@ -61,6 +61,4 @@ public class LoginTestSteps {
 	public void user_should_logout() throws InterruptedException {
 		testPage.verify_UserLoggedout(); 
 	}	
-	
-	
 }
